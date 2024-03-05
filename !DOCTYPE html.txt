@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="menubarsection">
+        <nav>
+            <input type="checkbox" id="click">
+            <label for="click" class="menubar">
+            </label>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Restaurant</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <input type="checkbox" id="click">
+            <label for="click" class="menubar">
+                <img src="https://res.cloudinary.com/dfioh1gmy/image/upload/v1709550796/menu-bar_1_gx2ghh.png" class="img" />
+            </label>
+        </nav>
+        <div class="mainContainer">
+            <div class="text-section-1">
+                <h1 class="heading">LOREM IPSUM</h1>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                    id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                    rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                    dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                    Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                    Sed pulvinar, massa ac porta viverra.</p><br />
+                <button class="button1" onclick="alert('Button Clicked!')">Click Me</button><br />
+            </div>
+
+            <div class="image-section-1">
+                <img class="image-1" src="https://res.cloudinary.com/dfioh1gmy/image/upload/v1705857574/WhatsApp_Image_2024-01-21_at_22.14.55_bf13050f_nvyyae.jpg" alt="Food Image">
+            </div>
+        </div>
+
+
+
+        <div class="section-2">
+            <div class="image-section-2">
+                <div class="img-grid-1">
+                    <img class="section-2-img-1" src="https://res.cloudinary.com/dfioh1gmy/image/upload/v1705904300/IMG-20240122-WA0031_fm6mrp.jpg" alt="Food Image">
+                    <img class="section-2-img-1" src="https://res.cloudinary.com/dfioh1gmy/image/upload/v1705904299/IMG-20240122-WA0029_n4zvvi.jpg">
+                </div>
+                <div class="img-grid-2">
+                    <img class="section-2-img-2" src="https://res.cloudinary.com/dfioh1gmy/image/upload/v1705904300/IMG-20240122-WA0032_xeiosq.jpg">
+                </div>
+            </div>
+
+            <div class="text-section-2">
+                <div class="card">
+                    <p>LOREM IPSUM</p>
+                    <p2>LOREM IPSUM <br />SET ADEMIR</p2>
+                    <div class="click-arrow-container">
+                        <button class="button2" onclick="alert('Button Clicked!')">Click</button>
+                        <img class="arrow-img" src="https://res.cloudinary.com/dfioh1gmy/image/upload/v1709641781/icons8-arrow-30_oldzae.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</html>
